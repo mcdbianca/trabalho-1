@@ -1,14 +1,14 @@
 header {
-    background-color: #f1bc29;
+    background-color:  #e97c17;
     color: white;
 }
-*{
-    margin: 0;
-    padding: 0;
+
+.cabecalho-imagem{
+    width: 20%;
 }
 
 .cabecalho {
-    background-color: #f1bc29;
+    background-color: #e97c17;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -16,13 +16,19 @@ header {
     padding: 24px 0;
 }
 
-.cabecalho-imagem{
-    width: 20%;
-}
-
 .cabecalho-lista-item{
+    display: inline-block;
     margin: 0 16px;
     font-size: 24px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.maquiagemtitulo-imagem{
+    width: 38%;
 }
 
 .maquiagem-imagem{
@@ -50,16 +56,24 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.maquiadora-imagem{
+.maquiadorauma-imagem{
     width: 360px;
+    margin: 50px;
 }
 
-.maquiadora-icone{
-    width: 34px;
-    padding: 12px 18px;
+.maquiadoradois-imagem{
+    width: 360px;
+    margin: 50px;
 }
 
-.maquiadoras-div{
-    text-align: center;
+.maquiadorauma-div-conteudo{
+    text-align: right;
+    display: flex;
+    padding: 16px 0;
+}
+
+.maquiadoradois-div-conteudo{
+    text-align: right;
+    display:flex;
     padding: 16px 0;
 }
